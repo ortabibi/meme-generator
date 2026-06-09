@@ -28,9 +28,16 @@
             <canvas height="500px" width="500px"></canvas>
             <section>
                 <input class="lines" type="text" placeholder="change youre txt" oninput="onInputChange(this.value)">
+                <a href="#" onclick="onDownloadImg(this)" download="file-name">Download</a>
+                <input class="color-picker" type="color" value="#000000" oninput="onSetColor(this.value)" />
+                <button class="font-down" onclick="onIncreaseFont()">A+</button>
+                <button class="font-down" onclick="onDecreaseFont()">A-</button>
+                <button class="add-line" onclick="onAddLine()">add</button>
+                <button class="switch-line" onclick="onSwitchLine()">switch</button>
             </section>
         </div>
     </main>
+
 
     <section class="about"></section>
 
