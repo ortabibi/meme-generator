@@ -20,10 +20,6 @@ function renderMeme() {
     elImg.onload = () => {
         drawMeme(elImg)
     }
-
-    // if (elImg.complete) {
-    //     drawMeme(elImg)
-    // }
 }
 
 function onInputChange(txt) {

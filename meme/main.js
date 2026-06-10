@@ -17,7 +17,7 @@ function addListeners() {
     window.addEventListener('resize', () => {
         resizeCanvas()
 
-        renderCanvas()
+        renderMeme()
     })
 }
 
